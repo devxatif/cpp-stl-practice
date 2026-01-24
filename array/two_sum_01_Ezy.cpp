@@ -17,17 +17,7 @@ void solved(){
     cout<<"target: ";
     cin>>target;
     
-    unordered_map<int,int>mp;
-
-    for(int i=0; i<n; i++){
-        int res = target - nums[i];
-        if(mp.count(res)){
-            cout<<mp[res]<<" "<<i<<endl;
-        }
-        else{
-            mp[nums[i]] = i;
-        }
-    }
+    
 }
 
 int main(){
