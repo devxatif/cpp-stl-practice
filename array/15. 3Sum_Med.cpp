@@ -44,6 +44,7 @@ void solve(){
         for(int x: it){
             cout<< x << " ";
         }
+        cout<<endl;
     }
 
 
