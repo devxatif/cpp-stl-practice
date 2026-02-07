@@ -31,8 +31,8 @@ void solve(){
     }
 
     if(neg.size()==0){
-        for(int i=0; i<pos.size(); i++){
-            pos[i]=pos[i]*pos[i];
+        for(auto &v: pos){
+            v = v*v;
         }
         for(auto it: pos) cout<<it<<" ";
         s = true;
